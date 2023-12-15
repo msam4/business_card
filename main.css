@@ -67,6 +67,11 @@ p {
   border-bottom: 2px solid #000;
 }
 
+.contact {
+  color: #000;
+  text-decoration: none;
+}
+
 .bold {
   font-weight: bold;
 }
