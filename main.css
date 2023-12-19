@@ -119,3 +119,9 @@ p {
 .icon-box i {
   margin-top: 5px;
 }
+
+/* Media Queries*/
+
+/* @media(max-width: 678px){.flip-container, .front, .back {scale: 0.8;}}
+@media(max-width: 540px){.flip-container, .front, .back {scale: 0.6;}}
+@media(max-width: 400px){.flip-container, .front, .back {scale: 0.4;}} */
