@@ -122,6 +122,6 @@ p {
 
 /* Media Queries*/
 
-/* @media(max-width: 678px){.flip-container, .front, .back {scale: 0.8;}}
-@media(max-width: 540px){.flip-container, .front, .back {scale: 0.6;}}
-@media(max-width: 400px){.flip-container, .front, .back {scale: 0.4;}} */
+@media(max-width: 678px){.flip-container, .flipper, .front, .back {scale: 75%;}}
+/* @media(max-width: 540px){.flip-container, .flipper, .front, .back {scale: 75%;}} */
+@media(max-width: 400px){.flip-container, .flipper, .front, .back {scale: 70%;}}
