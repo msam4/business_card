@@ -1,60 +1,12 @@
 @import url(https://fonts.googleapis.com/css?family=Lato);
 
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100vh;
-  background: #000;
-}
-
-.flex {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.card {
-  flex-direction: column;
-  gap: 3rem 0;
-}
-
-/* .front, .back {
-  width: 630px;
-  height: 360px;
-  border-radius: 20px;
-  box-shadow: #00000018 0px 4px 6px -1px, #00000018 0px 2px 4px -1px;
-  overflow: hidden;
-} */
-
-/* .front {
-  flex-direction: ;
-} */
-
-/* Media Queries*/
-
-@media(max-width: 678px){.flip-container, .front, .back {scale: 0.8;}}
-@media(max-width: 540px){.flip-container, .front, .back {scale: 0.6;}}
-@media(max-width: 400px){.flip-container, .front, .back {scale: 0.4;}}
-
-/* -------------------------- */
-
-/* Old Code */
-
-/* body {
   display: flex;
   align-items: center;
   justify-content: center;
   min-height: 90vh;
   color: #000;
-} */
+}
 
 .flip-container {
   perspective: 1000px;
@@ -167,3 +119,9 @@ p {
 .icon-box i {
   margin-top: 5px;
 }
+
+/* Media Queries*/
+
+@media(max-width: 678px){.flip-container, .flipper, .front, .back {scale: 75%;}}
+/* @media(max-width: 540px){.flip-container, .flipper, .front, .back {scale: 75%;}} */
+@media(max-width: 400px){.flip-container, .flipper, .front, .back {scale: 70%;}}
